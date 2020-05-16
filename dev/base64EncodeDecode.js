@@ -1,6 +1,6 @@
 /* Base 64 Encode and Decode String */
 function getInput(){
-    let input = document.getElementById("toolInput").nodeValue;
+    let input = document.getElementById("toolInput").value;
     return input;
 }
 
