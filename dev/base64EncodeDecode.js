@@ -5,7 +5,7 @@ function getInput(){
 }
 
 function updateOutput(output){
-    document.getElementById(toolOutput).value = output;
+    document.getElementById('toolOutput').value = output;
 }
 
 /*ENCODE*/
@@ -27,7 +27,7 @@ function base64Encode(input){
 }
 
 /*DECODE */
-jQuery("#devode").click(function(){
+jQuery("#decode").click(function(){
     console.log("Attempting to decode string");
     try{
         let output = base64Decode(getInput());
