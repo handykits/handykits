@@ -11,7 +11,14 @@ function showSnackbar(message) {
 	}, 3000);
 }
 
-/*CLIPBOARD COPY*/
+/*CLIPBOARD COPY
+get Outputvalue when outbout text is clicked
+*/
+jQuery(#toolOutput).click(function(){
+       let outputStr = document.getElementbyId("toolOutput).value;
+       copyToClipboard(outputStr);
+	console.log("Copied to Clipboard.");
+       });
 const copyToClipboard = str => {
 	console.log("Attempting to copy string: " + str);
 	showSnackbar("Copied to Clipboard");
