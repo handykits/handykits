@@ -12,4 +12,4 @@ function showSnackbar(message) {
 	}, 3000);
 }
 */
-import 'snackbar.js';
+import './snackbar.js';
