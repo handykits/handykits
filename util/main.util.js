@@ -38,7 +38,6 @@ get Outputvalue when outbout text is clicked
 jQuery('#toolOutput').click(function(){
        let outputStr = jQuery("#toolOutput").val();
 	/*only copy to clipboard if box is not empty*/
-	console.log(outputStr);
 	if(outputStr !== ""){
        		copyToClipboard(outputStr);
     		console.log("Copied to Clipboard.");
