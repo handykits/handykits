@@ -12,16 +12,6 @@ function showSnackbar(message) {
 }
 
 /*CLIPBOARD COPY
-get Outputvalue when outbout text is clicked
-*/
-jQuery('#toolOutput').click(function(){
-       let outputStr = jQuery("#toolOutput").val();
-	/*only copy to clipboard if box is not empty*/
-	if(outputStr !== ""){
-       		copyToClipboard(outputStr);
-    		console.log("Copied to Clipboard.");
-		}
-       });
 
 const copyToClipboard = str => {
 	console.log("Attempting to copy string: " + str);
@@ -42,3 +32,15 @@ const copyToClipboard = str => {
 		document.getSelection().addRange(selected); 
 	}
 };
+get Outputvalue when outbout text is clicked
+*/
+jQuery('#toolOutput').click(function(){
+       let outputStr = jQuery("#toolOutput").val();
+	/*only copy to clipboard if box is not empty*/
+	console.log(outputStr);
+	if(outputStr !== ""){
+       		copyToClipboard(outputStr);
+    		console.log("Copied to Clipboard.");
+		}
+       });
+
