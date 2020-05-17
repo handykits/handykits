@@ -1,4 +1,4 @@
-function showSnackbar(message) {
+export function showSnackbar(message) {
 	// Get the snackbar DIV
 	var x = document.getElementById("snackbar");
 	x.innerHTML = message;
