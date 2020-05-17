@@ -11,7 +11,7 @@ function showSnackbar(message) {
 	}, 3000);
 }
 
-/*CLIPBOARD COPY
+/*CLIPBOARD COPY*/
 
 const copyToClipboard = str => {
 	console.log("Attempting to copy string: " + str);
@@ -32,6 +32,7 @@ const copyToClipboard = str => {
 		document.getSelection().addRange(selected); 
 	}
 };
+/*
 get Outputvalue when outbout text is clicked
 */
 jQuery('#toolOutput').click(function(){
