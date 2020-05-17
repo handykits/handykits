@@ -1,1 +1,1 @@
-import './snackbar.js';
+import snackbar from './snackbar.js';
