@@ -1,4 +1,5 @@
 //snackbar
+/*
 function showSnackbar(message) {
 	// Get the snackbar DIV
 	var x = document.getElementById("snackbar");
@@ -10,3 +11,5 @@ function showSnackbar(message) {
 		x.className = x.className.replace("show", "");
 	}, 3000);
 }
+*/
+import 'snackbar.js';
