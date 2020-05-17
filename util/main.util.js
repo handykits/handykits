@@ -14,8 +14,8 @@ function showSnackbar(message) {
 /*CLIPBOARD COPY
 get Outputvalue when outbout text is clicked
 */
-jQuery(#toolOutput).click(function(){
-       let outputStr = document.getElementbyId("toolOutput).value;
+jQuery('#toolOutput').click(function(){
+       let outputStr = document.getElementbyId("toolOutput").value;
        copyToClipboard(outputStr);
 	console.log("Copied to Clipboard.");
        });
