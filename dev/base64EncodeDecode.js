@@ -1,4 +1,3 @@
-import '../util/main.util.js';
 /* Base 64 Encode and Decode String */
 function getInput(){
     let input = document.getElementById("toolInput").value;
